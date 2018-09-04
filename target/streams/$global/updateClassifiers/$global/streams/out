@@ -5,13 +5,14 @@
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#catsbook$sources;0.1 [compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.6 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.6 {compile=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.6
 [debug] 	found org.scala-lang#scala-library;2.12.6 in sbt-chain
 [debug] 	[2.12.6] org.scala-lang#scala-library;2.12.6
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -76,7 +77,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.typelevel#cats-kernel_2.12;1.0.0 [compile->compile(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.typelevel#cats-kernel_2.12;1.0.0 [compile->master]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.6
 [debug] 	found org.scala-lang#scala-reflect;2.12.6 in sbt-chain
 [debug] 	[2.12.6] org.scala-lang#scala-reflect;2.12.6
@@ -94,6 +95,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -154,6 +156,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
@@ -218,6 +221,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -278,6 +282,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
@@ -338,6 +343,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
@@ -405,6 +411,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -467,6 +474,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->compile]
@@ -531,6 +539,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -591,6 +600,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
@@ -652,6 +662,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->compile]
@@ -717,6 +728,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -777,6 +789,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile]
@@ -837,6 +850,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
@@ -899,6 +913,7 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->compile]
@@ -969,7 +984,6 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->compile]
-[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->master(compile)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->optional]
@@ -989,28 +1003,28 @@
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->optional]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->optional(default)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->master]
-[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
 [debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
-[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master]
-[debug] == resolving dependencies default#catsbook$sources;0.1->jline#jline;2.14.6 [scala-tool->compile]
-[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[compile, master(compile), compile(*), master]}
+[debug] == resolving dependencies default#catsbook$sources;0.1->jline#jline;2.14.6 [scala-tool->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[master(*), compile, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.6
 [debug] 	found jline#jline;2.14.6 in sbt-chain
-[debug] == resolving dependencies default#catsbook$sources;0.1->jline#jline;2.14.6 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#catsbook$sources;0.1->jline#jline;2.14.6 [scala-tool->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->jline#jline;2.14.6 [scala-tool->compile(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
+[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->compile]
-[debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master(compile)]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->runtime]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->compile]
 [debug] == resolving dependencies default#catsbook$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->compile(*)]
@@ -1018,24 +1032,24 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.12;1.0.0!cats-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.12;1.0.0!cats-macros_2.12.jar(src)
 [debug] no default ivy user dir defined: set to /home/az/.ivy2
 [debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.2!machinist_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/az/.ivy2
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.0.0!cats-kernel_2.12.jar(src)
 [debug] no default ivy user dir defined: set to /home/az/.ivy2
 [debug] no default ivy user dir defined: set to /home/az/.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.12;1.0.0!cats-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
+[debug] no default ivy user dir defined: set to /home/az/.ivy2
+[debug] no default ivy user dir defined: set to /home/az/.ivy2
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.0.0!cats-kernel_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/az/.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] no default ivy user dir defined: set to /home/az/.ivy2
 [debug] no default ivy user dir defined: set to /home/az/.ivy2
 [debug] no default ivy user dir defined: set to /home/az/.ivy2
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/az/.ivy2
-[debug] no default ivy user dir defined: set to /home/az/.ivy2
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
@@ -1046,54 +1060,85 @@
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /home/az/.ivy2/cache
 [debug] no default cache defined: set to /home/az/.ivy2/cache
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/az/.ivy2/cache
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/az/.ivy2/cache
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/az/.ivy2/cache
 [debug] no default cache defined: set to /home/az/.ivy2/cache
 [debug] no default cache defined: set to /home/az/.ivy2/cache
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/az/.ivy2/cache
+[debug] no default cache defined: set to /home/az/.ivy2/cache
+[debug] no default cache defined: set to /home/az/.ivy2/cache
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/az/.ivy2/cache
 [debug] no default cache defined: set to /home/az/.ivy2/cache
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/az/.ivy2/cache
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (56ms)
+[debug] settings loaded (45ms)
 [debug] 	default cache: /home/az/.ivy2/cache
+[debug] 	default resolver: default
+[debug] settings loaded (48ms)
+[debug] 	default cache: /home/az/.ivy2/cache
+[debug] 	-- 5 resolvers:
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (57ms)
+[debug] 	local [file]
+[debug] settings loaded (44ms)
+[debug] settings loaded (52ms)
 [debug] 	default cache: /home/az/.ivy2/cache
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	default cache: /home/az/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (55ms)
+[debug] 	default cache: /home/az/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
@@ -1102,10 +1147,25 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (46ms)
+[debug] settings loaded (53ms)
+[debug] settings loaded (48ms)
+[debug] 	default cache: /home/az/.ivy2/cache
+[debug] 	default cache: /home/az/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	local [file]
+[debug] settings loaded (59ms)
 [debug] 	default cache: /home/az/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -1115,17 +1175,7 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (49ms)
-[debug] 	default cache: /home/az/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] including url: jar:file:/home/az/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	local [file]
-[debug] settings loaded (49ms)
+[debug] settings loaded (53ms)
 [debug] 	default cache: /home/az/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -1134,43 +1184,7 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (50ms)
-[debug] 	default cache: /home/az/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (47ms)
-[debug] 	default cache: /home/az/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] settings loaded (60ms)
-[debug] 	default [chain] [local, main]
-[debug] 	default cache: /home/az/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	public [ibiblio]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	main [chain] [shared, public]
-[debug] 	public [ibiblio]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (64ms)
-[debug] 	default cache: /home/az/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] :: resolution report :: resolve 391ms :: artifacts dl 75ms
+[debug] :: resolution report :: resolve 278ms :: artifacts dl 71ms
 [debug] 	report for default#catsbook$sources;0.1 compile produced in /home/az/workspace/catsbook/target/scala-2.12/resolution-cache/reports/default-catsbook$sources-compile.xml
 [debug] 	report for default#catsbook$sources;0.1 runtime produced in /home/az/workspace/catsbook/target/scala-2.12/resolution-cache/reports/default-catsbook$sources-runtime.xml
 [debug] 	report for default#catsbook$sources;0.1 test produced in /home/az/workspace/catsbook/target/scala-2.12/resolution-cache/reports/default-catsbook$sources-test.xml
@@ -1182,4 +1196,4 @@
 [debug] 	report for default#catsbook$sources;0.1 plugin produced in /home/az/workspace/catsbook/target/scala-2.12/resolution-cache/reports/default-catsbook$sources-plugin.xml
 [debug] 	report for default#catsbook$sources;0.1 pom produced in /home/az/workspace/catsbook/target/scala-2.12/resolution-cache/reports/default-catsbook$sources-pom.xml
 [debug] 	report for default#catsbook$sources;0.1 scala-tool produced in /home/az/workspace/catsbook/target/scala-2.12/resolution-cache/reports/default-catsbook$sources-scala-tool.xml
-[debug] 	resolve done (391ms resolve - 75ms download)
+[debug] 	resolve done (278ms resolve - 71ms download)
